@@ -1,10 +1,34 @@
-# f28hs-2021-22-cwk2-sys
 
-Coursework 2 in F28HS "Hardware-Software Interface" on Systems Programming in C and ARM Assembler
+# Mastermind on Raspberry Pi 
+I built this project as part of a university coursework that focused on systems-level programming and embedded development. The goal was to develop a functional game using C and ARM Assembly, running on a Raspberry Pi with attached hardware components.
 
-The [CW specification is here](https://www.macs.hw.ac.uk/~hwloidl/Courses/F28HS/F28HS_CW2_2022.pdf)
+##  Project Overview
+This version of Mastermind is a two-player game implemented as a low-level application. One player (the system/application) acts as the code keeper, while the other player (a human) is the codebreaker.
 
-Use [this link](https://docs.google.com/spreadsheets/d/122glfQ4PNJ5b0TLohGeHwA8DxkRzYqrHzMitgJ2C1ck/edit?usp=sharing) to **sign-up as a pair** for this pair project.
+- The code keeper randomly generates a secret code consisting of numbers from 1, 2, and 3.
+- The codebreaker attempts to guess the hidden sequence within a limited number of turns.
+
+After each guess, the application provides feedback on:
+- How many digits are exact matches (correct digit and position)
+- How many digits are approximate matches (correct digit but wrong position)
+
+The game continues until the codebreaker successfully cracks the code or the maximum number of attempts is reached.
+
+## Technologies Used
+
+1) C programming
+2) ARM Assembly
+3) Raspberry Pi kit
+4) Hardware integration (buttons, LEDs, LCD screen)
+
+## Learning Outcomes
+
+- Gained hands-on experience with low-level programming
+- Worked with hardware-software interaction on embedded devices
+- Learned how to optimize logic in C and ARM Assembly
+- Understood game logic implementation without high-level libraries
+
+# The Coursework Specification has been provided below:
 
 Links:
 - You can use any machine with an installation of the `gcc` C compiler for running the C code of the game logic
@@ -92,11 +116,7 @@ A **red LED**, as output device, should be connected to the RPi2 using **GPIO pi
 A **Button**, as input device, should be connected to the RPi2 using **GPIO pin 19.**
 
 An **LCD display**, with a potentiometer to control contrast, should be wired to the
-Raspberry by as shown in the Fritzing diagram below.
+Raspberry.
 
 You will need resistors to control the current to the LED and from the Button. You
 will also need a potentiometer to control the contrast of the LCD display.
-
-The Fritzing diagram below visualises this wiring. 
-
-![Fritzing Diagram](fritz_CW2_2020_bb.png "Fritzing Diagram with LED and Button")
