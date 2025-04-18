@@ -1,0 +1,135 @@
+Raspberry Pi LCD driver, for a 16x2 display (4-bit wiring) 
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,40)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,12)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,12)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,12)
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,6)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,20)
+Printing welcome message on the LCD display ...
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+Secret: 1 3 1 
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+Round 1
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Turn: 1
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 2 times
+Turn: 2
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 2 times
+Turn: 3
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 3 times
+0 exact
+1 approximate
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,129)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Starting next round
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+Round 2
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Turn: 1
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 2 times
+Turn: 2
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 3 times
+Turn: 3
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 1 times
+2 exact
+0 approximate
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,129)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Starting next round
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+Round 3
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Turn: 1
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 1 times
+Turn: 2
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+Button pressed
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 3 times
+Turn: 3
+Enter sequence of 3 numbers
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Button pressed
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+Button pressed 1 times
+3 exact
+0 approximate
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,129)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,192)
+Correct Sequence
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,128)
+lcdClear: lcdPutCommand(6252040,1) and lcdPutCommand(6252040,2)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,1)
+lcdPutCommand: digitalWrite(25,0) and sendDataCmd(6252040,2)
